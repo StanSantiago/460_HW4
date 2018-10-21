@@ -13,16 +13,16 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Converter()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "TODO: Make converter";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Color()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "TODO: Make color mixer";
 
             return View();
         }
