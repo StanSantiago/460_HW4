@@ -15,7 +15,7 @@ namespace WebApplication1.Controllers
 
         public ActionResult Converter()
         {
-            ViewBag.Message = "TODO: Make converter";
+            ViewBag.Message = "";
 
             return View();
         }
