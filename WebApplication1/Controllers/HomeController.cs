@@ -19,7 +19,7 @@ namespace WebApplication1.Controllers
             double final = 0;
 
             string metric = Request.QueryString["Metric"];
-            int miles = Convert.ToInt32(Request.QueryString["Miles"]);
+            double miles = Convert.ToDouble(Request.QueryString["Miles"]);
 
             final = miles * 1.60934;
 
