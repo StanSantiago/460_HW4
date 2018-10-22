@@ -31,9 +31,14 @@ namespace WebApplication1.Controllers
                 final *= 1000;
             else if (metric == "kilometers")
             { }
-            else
+            else if((metric == "")&&(miles == 0))
             {
                 ViewBag.Message = "";
+                return View();
+            }
+            else
+            {
+                ViewBag.Message = "Please input valid values";
                 return View();
             }
 
